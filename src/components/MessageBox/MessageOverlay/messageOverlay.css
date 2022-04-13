@@ -1,0 +1,17 @@
+/* Message Popup Styles */
+.message-popup {
+  position: absolute;
+  left: 49%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--tile-size) * 15);
+  height: calc(var(--tile-size) * 15);
+  background-color: rgba(40, 44, 52, 0.7);
+  color: var(--light-text);
+  text-align: center;
+  line-height: 150%;
+}
+
+.message-popup.hidden {
+  display: none;
+}

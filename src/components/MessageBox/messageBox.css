@@ -1,0 +1,8 @@
+.link {
+    color: var(--light-text);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link:hover {
+    color: var(--accent-bg-color);
+}
